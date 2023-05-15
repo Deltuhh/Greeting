@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Arial", sans-serif;
+}
+
+.App-header {
+  background-color: #1c2e4a;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header h1 {
+  color: white;
+  margin: 0;
+}
+
+.App-header h3 {
+  color: white;
+  margin: 0;
+}
+
+.App-body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.App-card {
+  border: 1px solid #d9d9d9;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #d9d9d9;
+  min-width: 200px;
+}
+
+.App-card h2 {
+  color: #1c2e4a;
+  margin-bottom: 10px;
+}
+
+.App-time {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.App-button {
+  background-color: #1c2e4a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.App-button:disabled {
+  background-color: #d9d9d9;
+  color: #777777;
+  cursor: not-allowed;
+}
